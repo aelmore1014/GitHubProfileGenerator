@@ -58,7 +58,7 @@ const colorData = await faveColorPrompt();
 
 const data = await dataPrompt();
 
-const html = await generateHTML.generateHTML(colorData, data);
+const html = await generateHTML. generateHTML(colorData["What is your favorite color?"], data);
 
 await writeFileAsync("index.html", html);
 
